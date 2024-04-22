@@ -5,3 +5,19 @@ Set-ExecutionPolicy -ExecutionPolicy AllSigned -Scope CurrentUser
 .\vdjango\Scripts\activate
 
 django-admin startproject myFirstApp
+
+django-admin startproject mysite
+
+
+django-admin startproject nombre_proyecto
+
+python manage.py startapp holaMundo
+
+python .\manage.py runserver
+
+python manage.py startapp mascotasAPP
+
+django-admin startproject desafio_guiado_02
+
+python manage.py startapp desafio02
+

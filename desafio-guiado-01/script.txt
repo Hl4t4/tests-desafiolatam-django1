@@ -32,3 +32,5 @@ pip freeze > requirement-taller.txt
 python -m venv calendariolunar
 .\calendariolunar\Scripts\activate
 
+pip install -r .\requirements-calendariolunar.txt
+
