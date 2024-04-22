@@ -1,0 +1,34 @@
+python -m venv ferreteria
+python -m venv laesquina
+python -m venv onlyflans
+python -m venv prestobar
+python -m venv taller
+
+.\ferreteria\Scripts\activate
+pip install django==3.2
+pip install django==3.2.4
+
+.\laesquina\Scripts\activate
+pip install django==3.2
+pip install django==2.2.28
+
+.\onlyflans\Scripts\activate
+pip install django==3.2
+
+.\prestobar\Scripts\activate
+pip install astral
+
+.\taller\Scripts\activate
+pip install pytz==2019.3
+
+
+pip freeze > requirement-ferreteria.txt
+pip freeze > requirement-laesquina.txt
+pip freeze > requirement-onlyflans.txt
+pip freeze > requirement-prestobar.txt
+pip freeze > requirement-taller.txt
+
+
+python -m venv calendariolunar
+.\calendariolunar\Scripts\activate
+

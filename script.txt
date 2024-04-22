@@ -1,0 +1,7 @@
+python -m venv 
+
+Set-ExecutionPolicy -ExecutionPolicy AllSigned -Scope CurrentUser
+
+.\vdjango\Scripts\activate
+
+django-admin startproject myFirstApp
